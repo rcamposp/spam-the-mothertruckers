@@ -1,6 +1,7 @@
 # spam-the-mothertruckers
 Script para spamear sitios de phising
 
+```
   $client = new \GuzzleHttp\Client();
   $i = 0;
   while($i<10){
@@ -22,3 +23,4 @@ Script para spamear sitios de phising
   echo "<script>
       window.location.href = 'http://localhost/vete';
   </script>";
+  ```
